@@ -1,0 +1,18 @@
+[project]
+name = "leetcodetutor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "aiohttp>=3.14.0",
+    "fastapi>=0.136.3",
+    "firebase-admin>=7.4.0",
+    "google-adk==2.1.0",
+    "loguru>=0.7.3",
+    "python-dotenv>=1.2.2",
+    "redis==5.2.1",
+    "slowapi>=0.1.9",
+    "uvicorn>=0.48.0",
+    "websockets>=15.0.1",
+]
